@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "0.12"
+- '0.12'
+env:
+  global:
+  - BADGES_ENDPOINT: http://badgekit-api-sciencelab.herokuapp.com/
+  - BADGES_SYSTEM: badgekit
+  - BADGES_KEY: master
+  - secure: YpjafrcUkE24p7xJmoU+K/CruwtLAWNazFSkZ9gy+U1R3wyeAtj8QgFonwGKFo4NvlJ3tIKMDAAaxG4OBGXLSVrC9sYcoOPrdfTIFs6kpdLuHtIbCmJ5kU4Kl4UrAuQyK817m5eNdLMK7L6Z1rTmKY4+VFCTi078KA+10eozk/w=
+  - secure: Ht+l7mriTKty4uO65sjlzvPAvJXw24RkbVL7pp+3BUcjI+j0GUV/lZMj3BcCzFZlgputImo6FMCcm90qmWRNTq8gJZ4gZ8CXkVm9k5/6WlAKQbMhLc6jzWoNvE2CNj1LQ2HWnPPKV2AJX0DeJX8fhcSX9DZ+KiDDk9w3/3juErU=
