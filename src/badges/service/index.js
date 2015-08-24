@@ -31,8 +31,7 @@ BadgeService.prototype.createBadge = function (orcid, badge, dois) {
 
 BadgeService.prototype.getBadges = function (orcid, badge, dois) {
   return function (callback) {
-    var evidenceUrl = dois ? helpers.urlFromDOI(path.join(dois._1, dois._2)) : null;
-
+    var evidenceUrl = dois ? helpers.urlFromDOI(dois._1, dois._2) : null;
     var clientCallback = function (err, badges) {
       if (err) {
         console.error(err);
